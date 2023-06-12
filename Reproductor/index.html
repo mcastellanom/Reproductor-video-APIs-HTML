@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica Apis SD2023</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Reproductor de vídeo - Práctica Apis SD2023</h1>
+    <label for="inputFile" id="fileLabel">
+        <span id="fileLabelText">Seleccionar archivo</span>
+    </label>
+    <input type="file" id="inputFile" accept="video/*">
+    <div id="loading" class="hidden">Cargando...</div>
+    <div id="videoContainer" class="hidden">
+        <video id="videoPlayer" width="640" height="360" controls></video>
+    </div>
+    <div id="controls" class="hidden">
+        <i class="bi bi-play-fill hidden" id="play"></i>
+        <i class="bi bi-pause-fill hidden" id="pause"></i>
+        <i class="bi bi-volume-up hidden" id="volumeUp"></i>
+        <i class="bi bi-volume-down hidden" id="volumeDown"></i>
+        <i class="bi bi-volume-mute hidden" id="volumeMute"></i>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
