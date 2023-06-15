@@ -1,5 +1,5 @@
 # Reproductor-video-APIs-HTML
-Práctica 3 de APIs de HTML5:
+Práctica 3 para el nivel 3 de Samsung Desarrolladoras 2023: APIs de HTML5.
 
 Se propone cargar un fichero de vídeo desde una carpeta local del PC y reproducirlo utilizando las opciones permitidas por el API Media Source.
 
