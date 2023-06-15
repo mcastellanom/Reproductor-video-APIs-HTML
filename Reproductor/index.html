@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Práctica Apis SD2023</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <h1>Reproductor de vídeo - Práctica APIs SD2023</h1>
+    <input type="file" id="inputFile" accept="video/*" value="Seleccionar archivo">
+    <div id="loading" class="hidden">Cargando archivo de vídeo...</div>
+    <div id="videoContainer" class="hidden">
+        <video id="videoPlayer" width="640" height="360" controls>
+            Su navegador no soporta esta función.
+        </video>
+    </div>
+    <div id="controls" class="hidden">
+        <button id="play">Play</button>
+        <button id="pause">Pause</button>
+        <button id="volumeUp">Subir volumen</button>
+        <button id="volumeDown">Bajar volumen</button>
+        <button id="volumeMute">Mute</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
